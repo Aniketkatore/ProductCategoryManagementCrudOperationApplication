@@ -43,5 +43,6 @@ DELETE - Delete product by id
 3) Relation between Category-Products should have one-to-many relation. (One category can have multiple products).
 5) While fetching single product details the response should be populated with respective category details.
 
+thats all..
 
 

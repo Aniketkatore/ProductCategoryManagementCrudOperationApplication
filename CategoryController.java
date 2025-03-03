@@ -51,6 +51,7 @@ public class CategoryController {
 		Category category = categoryRepo.findById(Id).get();
 		category.setName(updatedCategory.getName());
 		return categoryRepo.save(category);
+		
 	}
 	
 	@DeleteMapping("/{Id}")//Delete
